@@ -14,6 +14,8 @@ public class Class {
 	}
 	if(r==i){
 	System.out.println("given number is a palindrome");
+        System.out.println("given number is a palindrome");
+System.out.println("given number is a palindrome");
 	}
 	else{ 
 	System.out.println("given number is not a palindrome");
