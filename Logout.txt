@@ -1,0 +1,24 @@
+package org.jsp.app;
+import java.util.Scanner;
+public class Class {
+	
+	  public static void main(String [] argd) { 
+	  Scanner scr=new Scanner(System.in);
+	  System.out.println("enter the number");
+	  int i=scr.nextInt();
+	int rem=0,temp=i,r=0;
+	while(temp>0) {
+	   rem=temp%10;
+	   r=rem+(r*10);
+	   temp=temp/10;
+	}
+	if(r==i){
+	System.out.println("given number is a palindrome");
+	}
+	else{ 
+	System.out.println("given number is not a palindrome");
+	}
+	}
+	 
+
+}
